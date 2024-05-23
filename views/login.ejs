@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Brass Artifacts</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Montserrat:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/login-style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js" defer></script>
+    <script src="/js/login.js" defer></script>
+  </head>
+  <body>
+    <div class="img-content-section"></div>
+    <div class="content-section">
+      <section class="error_show-section hidden">
+        <div class="restricted-img-logo">
+          <i class="material-icons" style="font-size: 48px; color: red"
+            >&#xe002;</i
+          >
+        </div>
+        <div class="err-message">error text</div>
+      </section>
+      <section class="login-success-section hidden">
+        <div class="login-success-container">Logged in Successfully!</div>
+      </section>
+      <section class="login-deatils-section">
+        <div class="getting-started-heading">Let's get started now!</div>
+        <form class="login-form">
+          <div class="email-label">Email Address</div>
+          <input
+            type="email"
+            placeholder="abc@gmail.com"
+            required
+            class="email-input"
+          />
+          <div class="password-label">Password</div>
+          <input
+            type="password"
+            placeholder="***********"
+            required
+            minlength="8"
+            class="password-input"
+          />
+          <input type="submit" class="login-submit-btn" value="Login" />
+        </form>
+        <div class="signup-conatiner">
+          Don't Have An Account? <a href="signup" class="signup-link">SignUp</a>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

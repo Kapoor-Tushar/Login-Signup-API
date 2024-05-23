@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  background-color: #e3eede;
+  font-family: "Gabarito";
+}
+.img-content-section {
+  width: 40%;
+  background-color: #597d59;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.content-section {
+  width: 60%;
+  padding: 2rem;
+  font-size: 1.6rem;
+}
+.error_show-section {
+  text-align: center;
+  color: #597d59;
+}
+.login-success-section {
+  text-align: center;
+  color: #597d59;
+}
+
+.getting-started-heading {
+  color: #597d59;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.login-form {
+  padding-left: 22%;
+}
+.email-label,
+.password-label {
+  font-size: 1.4rem;
+}
+.email-input,
+.password-input {
+  width: 75%;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 4px;
+}
+.login-submit-btn {
+  display: block;
+  width: 75%;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  font-family: "Gabarito";
+  background-color: black;
+  color: gainsboro;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 4px;
+  box-shadow: 2px 2px 4px grey;
+}
+.signup-conatiner {
+  font-size: 1.2rem;
+  text-align: center;
+}
+.signup-link:visited {
+  color: #597d59;
+}
+.hidden {
+  display: none;
+}

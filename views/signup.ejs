@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Brass Artifacts</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Montserrat:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/signup-style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js" defer></script>
+    <script src="/js/signup.js" defer></script>
+  </head>
+  <body>
+    <div class="img-content-section"></div>
+    <div class="content-section">
+      <section class="error_show-section hidden">
+        <div class="restricted-img-logo">
+          <i class="material-icons" style="font-size: 48px; color: red"
+            >&#xe002;</i
+          >
+        </div>
+        <div class="err-message">error text</div>
+      </section>
+      <section class="signup-success-section hidden">
+        <div class="signup-success-container">Signed Up Successfully!</div>
+      </section>
+      <section class="signup-deatils-section">
+        <div class="getting-started-heading">Let's get started now!</div>
+        <form class="signup-form">
+          <div class="name-label">Name</div>
+          <input type="text" placeholder="Tushar" required class="name-input" />
+          <div class="email-label">Email Address</div>
+          <input
+            type="email"
+            placeholder="abc@gmail.com"
+            required
+            class="email-input"
+          />
+          <div class="password-label">Password</div>
+          <input
+            type="password"
+            placeholder="***********"
+            required
+            minlength="8"
+            class="password-input"
+          />
+          <div class="password-confirm-label">Password Confirm</div>
+          <input
+            type="password"
+            placeholder="***********"
+            required
+            minlength="8"
+            class="password-confirm-input"
+            required
+          />
+          <input type="submit" class="signup-submit-btn" value="SIGN UP" />
+        </form>
+        <div class="login-conatiner">
+          Have An Account? <a href="login" class="login-link">Login</a>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
